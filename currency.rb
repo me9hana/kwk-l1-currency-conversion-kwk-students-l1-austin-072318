@@ -59,7 +59,6 @@ usd_to_eur
 when 2
   def eur_to_usd(eur_num = 1)
   
-
   eur_num = gets.chomp.to_i
   usd_amount = eur_num*1.17
 
@@ -70,7 +69,6 @@ eur_to_usd
  
 when 3
   def usd_to_inr(usd_num = 1)
-  
   
   usd_num = gets.chomp.to_i
   inr_amount = usd_num*68.76
