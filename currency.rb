@@ -1,11 +1,11 @@
-def usd_to_eur(usd1 = 0.86)
+def usd_to_eur(usd_amount = 1/0.86)
  
 
  
  
 end
 
-def eur_to_usd(eur1 = 1.17)
+def eur_to_usd(eur_amount = 1.17)
  
  
 end
