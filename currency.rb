@@ -71,7 +71,6 @@ eur_to_usd
 when 3
   def usd_to_inr(usd_num = 1)
   
-  puts "How many dollars do you want to convert to rupees?"
   
   usd_num = gets.chomp.to_i
   inr_amount = usd_num*68.76
