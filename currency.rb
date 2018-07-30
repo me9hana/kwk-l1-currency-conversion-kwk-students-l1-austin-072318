@@ -8,7 +8,7 @@ usd_num = gets.chomp.to_i
 puts "#{usd_num} is equal to #{eur_amount}."
  
 end
-usd_to_eur
+
 
 def eur_to_usd(eur_num = 1)
   usd_amount = eur_num*1.17
