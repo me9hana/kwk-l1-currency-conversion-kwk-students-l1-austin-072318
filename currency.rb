@@ -66,7 +66,7 @@ when 2
 
   puts "#{eur_num} is equal to #{usd_amount}."
   end
-eur_to_usd
+  eur_to_usd
  
 when 3
   def usd_to_inr(usd_num = 1)
@@ -77,8 +77,8 @@ when 3
   
   puts "#{usd_num} is equal to #{inr_amount}."
   
-end
-usd_to_inr
+  end
+  usd_to_inr
 
 else
   puts "Invalid input, exiting..."
