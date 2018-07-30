@@ -1,5 +1,6 @@
 def usd_to_eur(usd_num)
   eur_amount = usd_num*0.86
+  
 puts "How many dollars do you want to convert to euros?"
  
 usd_num = gets.chomp.to_i
@@ -11,7 +12,9 @@ usd_to_eur(5)
 
 def eur_to_usd(eur_num)
   usd_amount = eur_num*1.17
-puts 
+puts "How many euros do you want to convert to dollars?"
+
+eur_num = gets.chomp.to_i
  
 end
 eur_to_usd(5)
