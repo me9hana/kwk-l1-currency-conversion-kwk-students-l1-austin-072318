@@ -52,7 +52,6 @@ when 1
   eur_amount = usd_num*0.86
  
   puts "#{usd_num} is equal to #{eur_amount}."
- 
 end
 usd_to_eur
 
