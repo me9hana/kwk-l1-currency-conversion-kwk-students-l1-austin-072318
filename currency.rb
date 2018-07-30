@@ -19,4 +19,4 @@ eur_num = gets.chomp.to_i
 puts "#{eur_num} is equal to #{usd_amount}."
  
 end
-eur_to_usd
+
