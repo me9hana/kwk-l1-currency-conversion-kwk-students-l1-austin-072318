@@ -63,7 +63,7 @@ when 2
   usd_amount = eur_num*1.17
 
   puts "#{eur_num} is equal to #{usd_amount}."
-end
+  end
 eur_to_usd
  
 when 3
