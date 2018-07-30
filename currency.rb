@@ -22,6 +22,8 @@ puts "#{eur_num} is equal to #{usd_amount}."
 end
 eur_to_usd
 
-def usd_to_inr
+def usd_to_inr(usd_num = 1)
   
   puts "How many dollars do you want to convert to rupees?"
+  
+  
