@@ -31,3 +31,5 @@ def usd_to_inr(usd_num)
   
   puts "#{usd_num} is equal to #{inr_amount}."
   
+end
+  
