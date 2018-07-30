@@ -9,7 +9,7 @@ def usd_to_eur(usd_num)
  end
  usd_to_eur(5)
 
-def eur_to_usd(usd_amount = eur_num*1.17)
- 
+def eur_to_usd(eur_num)
+ usd_amount = eur_num*1.17
  
 end
