@@ -46,8 +46,7 @@ choice = gets.chomp().to_i
  
 case choice
 when 1
-   def usd_to_eur(usd_num = 1)
-     "Please restate the amount you wish to convert."
+    puts "Please restate the amount you wish to convert."
 
   usd_num = gets.chomp.to_i
   eur_amount = usd_num*0.86
@@ -59,7 +58,7 @@ usd_to_eur
 
 when 2
    def eur_to_usd(eur_num = 1)
-     "Please restate the amount you wish to convert."
+    puts "Please restate the amount you wish to convert."
   
   eur_num = gets.chomp.to_i
   usd_amount = eur_num*1.17
@@ -71,7 +70,7 @@ eur_to_usd
  
 when 3
   def usd_to_inr(usd_num = 1)
-    "Please restate the amount you wish to convert."
+    puts "Please restate the amount you wish to convert."
   
   usd_num = gets.chomp.to_i
   inr_amount = usd_num*68.76
