@@ -82,4 +82,5 @@ usd_to_inr
 
 else
   puts "Invalid input, exiting..."
+  
 end
