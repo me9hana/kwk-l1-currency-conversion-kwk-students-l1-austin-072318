@@ -46,6 +46,7 @@ choice = gets.chomp().to_i
  
 case choice
 when 1
+  
   puts "Please restate how much money you wish to convert."
   usd_num = gets.chomp.to_i
   eur_amount = usd_num*0.86
