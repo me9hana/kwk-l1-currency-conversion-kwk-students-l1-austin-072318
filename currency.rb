@@ -47,7 +47,7 @@ choice = gets.chomp().to_i
 case choice
 when 1
   def usd_to_eur(usd_num = 1)
- 
+
   usd_num = gets.chomp.to_i
   eur_amount = usd_num*0.86
  
