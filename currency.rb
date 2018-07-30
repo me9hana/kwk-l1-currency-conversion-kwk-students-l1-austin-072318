@@ -29,3 +29,5 @@ def usd_to_inr(usd_num)
   usd_num = gets.chomp.to_i
   inr_amount = usd_num*68.76
   
+  puts "#{usd_num} is equal to #{inr_amount}."
+  
