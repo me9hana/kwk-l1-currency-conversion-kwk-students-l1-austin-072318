@@ -15,6 +15,8 @@ def eur_to_usd(eur_num)
 puts "How many euros do you want to convert to dollars?"
 
 eur_num = gets.chomp.to_i
+
+puts "#{eur_num} is equal to #{usd_amount}."
  
 end
 eur_to_usd(5)
