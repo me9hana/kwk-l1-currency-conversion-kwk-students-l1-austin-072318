@@ -1,9 +1,9 @@
 def usd_to_eur(usd_num = 1)
-  eur_amount = usd_num*0.86
   
 puts "How many dollars do you want to convert to euros?"
  
 usd_num = gets.chomp.to_i
+eur_amount = usd_num*0.86
  
 puts "#{usd_num} is equal to #{eur_amount}."
  
