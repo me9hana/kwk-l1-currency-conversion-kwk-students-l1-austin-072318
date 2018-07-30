@@ -7,7 +7,7 @@ def usd_to_eur(usd_num)
  puts "#{usd_num} is equal to #{eur_amount}."
  
  end
- usd_to_eur()
+ usd_to_eur(5)
 
 def eur_to_usd(usd_amount = eur_num*1.17)
  
