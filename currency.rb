@@ -22,7 +22,7 @@ def eur_to_usd(eur_num = 1)
 end
 eur_to_usd
 
-def usd_to_inr(usd_num)
+def usd_to_inr(usd_num = 1)
   
   puts "How many dollars do you want to convert to rupees?"
   
